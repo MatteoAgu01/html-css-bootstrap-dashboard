@@ -1,0 +1,39 @@
+
+:root{
+     --header-color:#1b72e8;
+     --header-badge-color:#0f4386df;
+     --sidebar-color:#051e34;
+}
+
+ul{
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+}
+
+body{
+     overflow: hidden;
+}
+
+.my-wrapper{
+     height: 100vh;
+     width: 170px;
+     position: relative;
+     bottom: 15vh;
+     background-color:var(--sidebar-color);
+}
+
+header{
+     width: 100%;
+     margin:0;
+     height: 15vh;
+     position: relative;
+     left: 150px;
+     background-color: var(--header-color);
+     min-height: 90px;
+}
+
+main{
+     height: 85vh;
+     width: calc(100% - 160px);
+}
