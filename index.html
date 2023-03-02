@@ -13,14 +13,15 @@
 </head>
 
 <body>
-     <div class="container-fluid">
-          <nav class="d-flex justify-content-between h-25">
+     <header class="d-flex justify-content-between align-items-center w-100">
+          <nav class="d-flex justify-content-between align-items-center w-100">
                <div>
                     <img src="./img/logo.svg" alt="logo">
                </div>
                <div class="flex-grow-1 px-5">
                     <form action="" class="bg-body-secondary">
-                    <input class="w-100" type="search" placeholder="Prova a cercare lezioni Laravel">
+
+                         <input class="w-100" type="search" placeholder="Prova a cercare lezioni Laravel">
                     </form>
                </div>
                <div>
@@ -29,12 +30,7 @@
                     <i class="fa-solid fa-home"></i>
                </div>
           </nav>
-          <header class="d-flex justify-content-around align-items-center">
-               <div>header sx</div>
-               <div> header center</div>
-               <div> header dx</div>
-          </header>
-     </div>
+     </header>
 
      <div class="conteiner-fluid d-flex">
           <div class="my-wrapper ">
@@ -45,21 +41,257 @@
                          <li class="m-2"> <i class="fa-solid fa-signal"></i> segnals</li>
                     </ul>
                     <ul class="text-white p-0 m-0 ">
-                         <li class="m-2 text-capitalize"> 
-                              <i class="fa-solid fa-home"></i> 
+                         <li class="m-2 text-capitalize">
+                              <i class="fa-solid fa-home"></i>
                               impostazioni
                          </li>
                     </ul>
                </nav>
           </div>
 
-          <main class="d-flex bg-body-tertiary p-1 ">
-               <section class="col-8 .bg-body border mx-1">
-f
-               </section>
-               <section class="col-4 .bg-body border mx-1">
-s
-               </section>
+          <main class="d-flex flex-column bg-body-tertiary">
+               <!-- ===============TOP MAIN BLU============== -->
+               <div class="head d-flex justify-content-around align-items-center p-1">
+                    <div>header sx</div>
+                    <div> header center</div>
+                    <div> header dx</div>
+               </div>
+               <!-- //===============TOP MAIN BLU================ -->
+
+               <!-- ===============CONTENUTO MAIN=============== -->
+               <div class="d-flex p-2">
+                    <!-- ==========MAIN PARTE SX CON TABELLA========== -->
+                    <section class="col-lg-8  border rounded-3">
+                         <!-- ======== -->
+                         <div class="bg-body-tertiary p-3 ">
+                              <h2 class="text-capitalize">prossime classi</h2>
+                         </div>
+                         <div class="p-1 bg-body">
+                              <table class="bg-white small border-top border-bottom rounded-3 ">
+                                   <!-- =========TESTA TABELLA======== -->
+                                   <thead class="">
+                                        <tr class="">
+                                             <th class="py-3">nome</th>
+                                             <th class="py-3">data inizio</th>
+                                             <th class="py-3">lorem</th>
+                                             <th class="py-3">lorem</th>
+                                             <th class="py-3">lorem</th>
+                                        </tr>
+                                   </thead>
+                                   <!-- //=========TESTA TABELLA======== -->
+
+                                   <!-- =========CORPO TABELLA======== -->
+                                   <tbody class="">
+                                        <!-- ========ROW 1 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!--// ========ROW 1 TABLE======== -->
+
+                                        <!-- ========ROW 2 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!-- //========ROW 2 TABLE======== -->
+
+                                        <!-- ========ROW 3 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!-- //========ROW 3 TABLE======== -->
+
+                                        <!-- ========ROW 4 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!-- //========ROW 4 TABLE======== -->
+
+                                        <!-- ========ROW 5 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!-- //========ROW 5 TABLE======== -->
+
+                                        <!-- ========ROW 6 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!-- //========ROW 6 TABLE======== -->
+
+                                        <!-- ========ROW 7 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!-- //========ROW 7 TABLE======== -->
+
+                                        <!-- ========ROW 8 TABLE======== -->
+                                        <tr class="border-bottom border-top">
+                                             <td class="py-1">
+                                                  <img class="avatar-table" src="./img/class-avatar.jpg"
+                                                       alt="avatar table">
+                                                  <span class="text-capitalize">classe 92</span>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>23 feb 2023</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p>20 &percnt;</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <p class="badge bg-success">done</p>
+                                             </td>
+                                             <td class="py-1">
+                                                  <i
+                                                       class="fa-solid fa-pen border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                                  <i
+                                                       class="fa-solid fa-trash-can border p-2 bg-body-secondary text-secondary-emphasis rounded"></i>
+                                             </td>
+                                        </tr>
+                                        <!-- //========ROW 8 TABLE======== -->
+                                   </tbody>
+                                   <!-- //=========CORPO TABELLA======== -->
+                              </table>
+                         </div>
+                    </section>
+                    <!-- //==========MAIN PARTE SX CON TABELLA========== -->
+                    <section class="col-lg-4 .bg-body border mx-1">
+                         ffffffffffff
+                    </section>
+               </div>
+               <!-- ===============CONTENUTO MAIN=============== -->
           </main>
      </div>
 </body>
