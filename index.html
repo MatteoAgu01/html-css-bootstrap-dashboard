@@ -18,10 +18,11 @@
                <div class="px-5">
                     <img src="./img/logo.svg" alt="logo">
                </div>
-               <div class="flex-grow-1 px-5" >
+               <div class="flex-grow-1 px-5 research-bar">
                     <div class="input-group mb-3">
-                         <button class="btn btn-outline-secondary" type="button" id="button-addon1"> <i class="fa-solid fa-search"></i></button>
-                         <input type="text" class="form-control" placeholder=""
+                         <button class="btn btn-outline-secondary" type="button" id="button-addon1"> <i
+                                   class="fa-solid fa-search"></i></button>
+                         <input type="text" class="form-control" placeholder="Cerca lezioni laravel"
                               aria-label="Example text with button addon" aria-describedby="button-addon1">
                     </div>
 
@@ -53,10 +54,113 @@
 
           <main class="d-flex flex-column bg-body-tertiary">
                <!-- ===============TOP MAIN BLU============== -->
-               <div class="head d-flex justify-content-around align-items-center p-1">
-                    <div>header sx</div>
+               <div class="head d-flex justify-content-between align-items-center p-1 px-3">
+                    <div>
+                         <div class="d-flex align-items-center">
+                              <h2 class="text-white display-3 text-capitalize Bold text">boolean</h2>
+                              <span class="badge" id="my-badge">piano blaze</span>
+                         </div>
+
+                         <div>
+                              <span class="badge" id="my-badge">piano blaze</span>
+                              <i class="fa-solid fa-chevron-right text-white"></i>
+                              <span class="badge" id="my-badge">piano blaze</span>
+                              <span class="badge" id="my-badge">piano blaze</span>
+                              <span class="badge" id="my-badge">piano blaze</span>
+                         </div>
+                    </div>
                     <div> header center</div>
-                    <div> header dx</div>
+                    <div>
+                         <span class="text-white p-2">
+                              Aggiungi alunno
+                         </span>
+                         <button class="canvas-button" type="button" data-bs-toggle="offcanvas"
+                              data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                              <i class="fa-solid fa-plus"></i>
+                         </button>
+
+                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                              aria-labelledby="offcanvasExampleLabel">
+                              <div class="offcanvas-header">
+                                   <h5 class="offcanvas-title" id="offcanvasExampleLabel">Aggiungi un nuovo studente
+                                   </h5>
+                                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                   <div class="p-4">
+                                        <div class="d-flex justify-content-center">
+                                             <div class="mx-2 p-2 flex-fill">
+                                                  <p class="text-capitalize">nome</p>
+                                                  <input class="my-input-txt" type="text">
+                                             </div>
+                                             <div class="mx-2 p-2 flex-fill">
+                                                  <p class="text-capitalize">cognome</p>
+                                                  <input class="my-input-txt" type="text">
+                                             </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center">
+                                             <div class="mx-2 p-2 flex-fill ">
+                                                  <p>s</p>
+                                                  <div class="input-group my-email-imput">
+
+                                                       <span class="input-group-text p-1" id="basic-addon1">@</span>
+                                                       <input type="text" class="form-control p-1" placeholder="Email"
+                                                            aria-label="Username" aria-describedby="basic-addon1">
+                                                  </div>
+                                             </div>
+                                             <div class="mx-2 p-2 flex-fill ">
+                                                  <p class="text-capitalize my-input-txt">email</p>
+                                                  <input class="my-input-txt" type="text">
+                                             </div>
+                                        </div>
+                                        <div class=" w-100">
+                                             <div class="p-3">
+                                                  <p>indirizzo</p>
+                                                  <input class="my-input-txt" type="text">
+                                             </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-center">
+                                             <div class="mx-2 p-2 flex-fill ">
+                                                  <p class="text-capitalize my-input-txt">email</p>
+                                                  <input class="my-input-txt" type="text">
+                                             </div>
+
+                                             <div class="mx-2 p-2 flex-fill ">
+                                                  <p class="text-capitalize my-input-txt">email</p>
+                                                  <input class="my-input-txt" type="text">
+                                             </div>
+
+                                             <div class="mx-2 p-2 flex-fill ">
+                                                  <p class="text-capitalize my-input-txt">email</p>
+                                                  <input class="my-input-txt" type="text">
+                                             </div>
+                                        </div>
+
+                                        <div>
+                                             <div class="input-group p-3">
+                                                  <input type="file" class="form-control" id="inputGroupFile04"
+                                                       aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                                  <button class="btn btn-outline-secondary" type="button"
+                                                       id="inputGroupFileAddon04">submit</button>
+                                             </div>
+                                        </div>
+
+                                        <div class="p-3">
+                                             <input type="checkbox" name="" id="">
+                                             <span>seleziona per proseguire</span>
+                                        </div>
+
+                                        <div class="p-3">
+                                             <button type="button" class="btn btn-primary">Primary</button>
+                                             <button type="button" class="btn btn-warning">Warning</button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
                </div>
                <!-- //===============TOP MAIN BLU================ -->
 
@@ -312,14 +416,15 @@
                                         <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                                              <button class="accordion-button collapsed" type="button"
                                                   data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
-                                                  aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo text-capitalize">
+                                                  aria-expanded="false"
+                                                  aria-controls="panelsStayOpen-collapseTwo text-capitalize">
                                                   come posso accedere alle informazioni del mio account?
                                              </button>
                                         </h2>
                                         <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
                                              aria-labelledby="panelsStayOpen-headingTwo">
                                              <div class="accordion-body text-capitalize">
-                                                  premendo sulla campanella in alto 
+                                                  premendo sulla campanella in alto
                                              </div>
                                         </div>
                                    </div>
@@ -349,7 +454,7 @@
                               <div class="bg-body-secondary p-3">
                                    <h3 class="text-capitalize">todo</h3>
                               </div>
-                              <div class="my-container p-3">
+                              <div class="my-container p-4">
                                    <div class="card my">
                                         <div class="p-2 border-bottom ">
                                              <input type="checkbox" name="" id="">
@@ -375,17 +480,17 @@
                                    </div>
                                    <div class="">
                                         <div class="  border-bottom">
-                                           <h6 class="text-capitalize p-1">utenti attivi</h6>
-                                           <p class="small p-1">lista utenti attivi in piattaforma nel ultima ora</p>
+                                             <h6 class="text-capitalize p-1">utenti attivi</h6>
+                                             <p class="small p-1">lista utenti attivi in piattaforma nel ultima ora</p>
                                         </div>
                                         <div class="border-bottom px-1 py-2 m-0">
                                              <p class="m-0"> 1200</p>
                                         </div>
                                         <div class="border-bottom px-1 py-2">
-                                             <p  class="m-0">800</p>
+                                             <p class="m-0">800</p>
                                         </div>
                                         <div class="border-bottom px-1 py-2">
-                                             <p  class="m-0  ">1500</p>
+                                             <p class="m-0  ">1500</p>
                                         </div>
                                         <div class="small border-bottom py-3 px-1 ">
                                              <a href="">Visualizza report approfondito</a>

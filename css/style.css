@@ -20,13 +20,17 @@ ul{
 }
 
 header{
-     height: 8vh;
-     padding-top: 20px;
+     height: 55px;
+     align-items: baseline;
 
 }
 
+.research-bar{
+     height: 38px;
+}
+
 .head{
-     width: 100%;
+     width: calc(100% - 170px);
      margin:0;
      height: 13vh;
      background-color: var(--header-color);
@@ -50,6 +54,36 @@ header> nav{
      height: 5vh;
 }
 /* ======HEADER====== */
+
+/* =======NAV BLUE======= */
+.canvas-button{
+     width: 40px;
+     height: 40px;
+     border-radius: 10px;
+     color: white;
+     border:1px solid white;
+     background-color: #1b72e8;
+}
+
+#offcanvasExample{
+     width: 50%;
+
+}
+
+.my-email-imput{
+     width: 25vw;
+     height: 30px;
+}
+
+.my-input-txt{
+     width: 100%;
+}
+
+#my-badge{
+     background-color: #0f4676b7;
+}
+
+/* //=======NAV BLUE======= */
 
 /* ======TABELLA MAIN SX====== */
 main> div> section> div> table{
