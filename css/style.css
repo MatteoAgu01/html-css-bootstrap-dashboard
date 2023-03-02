@@ -12,7 +12,7 @@ ul{
 }
 
 .my-wrapper{
-     height: 92vh;
+     align-items: stretch;
      max-height: 300vh;
      width: 170px;
      background-color:var(--sidebar-color);
@@ -21,6 +21,8 @@ ul{
 
 header{
      height: 8vh;
+     padding-top: 20px;
+
 }
 
 .head{
@@ -29,11 +31,19 @@ header{
      height: 13vh;
      background-color: var(--header-color);
      min-height: 90px;
+     position: fixed;
+     z-index: 2000;
 }
 
 main{
      height: 92vh;
-     width: calc(100% - 160px);
+     width: calc(100% - 170px);
+     overflow-x:hidden;
+     overflow-y: scroll;
+}
+
+.margin-fix{
+     margin-top:14vh;
 }
 /* ======HEADER====== */
 header> nav{
@@ -43,7 +53,7 @@ header> nav{
 
 /* ======TABELLA MAIN SX====== */
 main> div> section> div> table{
-     width: 100%;
+     width: 99%;
      overflow-y: hidden;
 }
 
@@ -63,3 +73,7 @@ main> div> section> div>  table> thead> tr:first-child{
      width: 30px;
 }
 /* //======TABELLA MAIN SX====== */
+
+/* ========SECTIO DX========= */
+
+/* //========SECTIO DX========= */
