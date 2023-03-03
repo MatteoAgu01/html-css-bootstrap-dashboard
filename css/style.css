@@ -1,111 +1,135 @@
-
-:root{
-     --header-color:#1b72e8;
-     --header-badge-color:#0f4386df;
-     --sidebar-color:#051e34;
+:root {
+     --header-color: #1b72e8;
+     --header-badge-color: #0f4386df;
+     --sidebar-color: #051e34;
 }
 
-ul{
+ul {
      margin: 0;
      padding: 0;
      list-style-type: none;
 }
 
-.my-wrapper{
+.my-wrapper {
      align-items: stretch;
      max-height: 300vh;
      width: 170px;
-     background-color:var(--sidebar-color);
+     background-color: var(--sidebar-color);
      background-image: url(../img/sidebar-bg.png);
 }
 
-header{
+header {
      height: 55px;
      align-items: baseline;
 
 }
 
-.research-bar{
+.research-bar {
      height: 38px;
 }
 
-.head{
+.head {
      width: calc(100% - 170px);
-     margin:0;
-     height: 13vh;
+     margin: 0;
+     height: 110px;
      background-color: var(--header-color);
      min-height: 90px;
      position: fixed;
      z-index: 2000;
 }
 
-main{
+main {
      height: 92vh;
      width: calc(100% - 170px);
-     overflow-x:hidden;
+     overflow-x: hidden;
      overflow-y: scroll;
 }
 
-.margin-fix{
-     margin-top:14vh;
+.margin-fix {
+     margin-top: 14vh;
 }
+
 /* ======HEADER====== */
-header> nav{
+header>nav {
      height: 5vh;
 }
+
+.fa-bell {
+     color: rgb(255, 221, 0);
+}
+
+.my-d-none {
+     border-radius: 5px;
+     background-color: white;
+     padding: 10px;
+     outline: 1px solid black;
+     width: 120px;
+     position: absolute;
+     right: 56px;
+     top: 40px;
+     z-index: 3000;
+     display: none;
+}
+
+/* .my-d-none:hover .bell-hover{
+    display: block;
+} */
+
 /* ======HEADER====== */
 
 /* =======NAV BLUE======= */
-.canvas-button{
+.canvas-button {
      width: 40px;
      height: 40px;
      border-radius: 10px;
      color: white;
-     border:1px solid white;
+     border: 1px solid white;
      background-color: #1b72e8;
 }
 
-#offcanvasExample{
+#offcanvasExample {
      width: 50%;
 
 }
 
-.my-email-imput{
+.my-email-imput {
      width: 25vw;
      height: 30px;
 }
 
-.my-input-txt{
+.my-input-txt {
      width: 100%;
 }
 
-#my-badge{
+#my-badge {
      background-color: #0f4676b7;
 }
 
 /* //=======NAV BLUE======= */
 
 /* ======TABELLA MAIN SX====== */
-main> div> section> div> table{
+main>div>section>div>table {
      width: 99%;
      overflow-y: hidden;
 }
 
-main> div> section> div> table> thead> tr :not(:first-child){
+main>div>section>div>table>thead>tr :not(:first-child) {
      width: 8rem;
      text-align: center;
 }
-main> div> section> div> table> tbody> tr :not(:first-child){
+
+main>div>section>div>table>tbody>tr :not(:first-child) {
      text-align: center;
 }
 
-main> div> section> div>  table> thead> tr:first-child{
+main>div>section>div>table>thead>tr:first-child {
      width: auto;
 }
 
-.avatar-table{
+.avatar-table {
      width: 30px;
 }
+
 /* //======TABELLA MAIN SX====== */
 
 /* ========SECTIO DX========= */

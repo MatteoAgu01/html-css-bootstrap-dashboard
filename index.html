@@ -27,10 +27,23 @@
                     </div>
 
                </div>
-               <div class="px-5">
-                    <i class="fa-solid fa-home"></i>
-                    <i class="fa-solid fa-home"></i>
-                    <i class="fa-solid fa-home"></i>
+               <div class="px-5 d-flex">
+                    <div>
+                         <i class="fa-solid fa-home"></i>
+                    </div>
+                    <div>
+                         <i class="fa-solid fa-home"></i>
+                    </div>
+
+                    <div class="bell-hover" onClick="document.getElementById('account').style.display === 'none' ? document.getElementById('account').style.display = 'block' : document.getElementById('account').style.display = 'none';">
+                         <i class="fa-solid fa-bell"></i>
+                    </div>
+               </div>
+
+               <div class="my-d-none" id="account">
+                    <p>profilo</p>
+                    <p>profilo</p>
+                    <p>profilo</p>
                </div>
           </nav>
      </header>
@@ -57,7 +70,7 @@
                <div class="head d-flex justify-content-between align-items-center p-1 px-3">
                     <div>
                          <div class="d-flex align-items-center">
-                              <h2 class="text-white display-3 text-capitalize Bold text">boolean</h2>
+                              <h2 class="text-white display-4 text-capitalize fw-bold">boolean</h2>
                               <span class="badge" id="my-badge">piano blaze</span>
                          </div>
 
@@ -69,7 +82,10 @@
                               <span class="badge" id="my-badge">piano blaze</span>
                          </div>
                     </div>
-                    <div> header center</div>
+                    <div>
+                         <p class="text-white m-0">studenti online negli ultimi 30 giorni</p>
+                         <h3 class="text-white display-5 p-0 m-0 fw-bold">125</h3>
+                    </div>
                     <div>
                          <span class="text-white p-2">
                               Aggiungi alunno
